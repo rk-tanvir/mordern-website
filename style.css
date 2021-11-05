@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Header Section */
+
+#header {
+    height: 100vh;
+    background: url(img/background.png);
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.logo {
+    margin-top: 30px;
+    width: 100px;
+}
+.header-text {
+    max-width: 350px;
+    margin-top: 140px;
+}
+h1 {
+    font-size: 34px;
+}
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 15px 0;
+}
+.common-btn {
+    padding: 15px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+.header-text button {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.line-1 {
+    height: 15px;
+    width: 15px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line-2 {
+    height: 1px;
+    width: 80px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line-3 {
+    height: 1px;
+    width: 60px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line {
+    line-height: 8px;
+}
+
+/* Side Menu */
+#sideNav {
+    width: 250px;
+    height: 100vh;
+    background: #f67c92;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    z-index: 2;
+    transition: .5s;
+}
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+#menuBtn {
+    width: 50px;
+    position: fixed;
+    top: 35px;
+    right: 65px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* About Section */ 
+
+#about,#offer {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col {
+    flex-basis: 50%;
+}
+.about-left-col img {
+    width: 100%;
+}
+.about-right-col {
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about-text p {
+    text-align: justify;
+}
+.about-text h2 {
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+.about-text h3 {
+    font-size: 20px;
+    font-style: italic;
+    color: #797979;
+}
+
+/* Features Section */ 
+
+#features {
+    padding: 50px 0;
+}
+.features-row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.features-col {
+    flex-basis: 25%;
+    text-align: center;
+}
+.features-col img {
+    width: 100px;
+}
+.features-col h4 {
+    font-size: 20px; 
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.features-btn {
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.features-btn .line {
+    text-align: right;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+/* courses Section */
+
+#courses {
+    padding: 100px 0;
+}
+.courses-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.courses-right-col {
+    flex-basis: 50%;
+}
+.courses-right-col img {
+    width: 100%;
+}
+.courses-left-col {
+    flex-basis: 50%;
+}
+.courses-text {
+    max-width: 350px;
+}
+.courses-text p {
+    text-align: justify;
+}
+.courses-text button {
+    margin: 30px 0;
+}
+
+/* Offer Section */ 
+
+#offer button {
+    margin: 30px 0;
+}
+
+/* Contact Section */ 
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-left-col,.contact-right-col {
+    flex-basis: 50%;
+}
+.contact-right-col img {
+    width: 100%;
+}
+form {
+    max-width: 350px;
+    margin: 30px 0;
+}
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #f67c92;
+}
+.contact-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-btn button {
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+
+/* Footer Section */ 
+
+#footer {
+    padding: 50px 0 30px;
+}
+#footer hr {
+    border: none;
+    border-top: 1px solid #f67c92;
+    width: 100%;
+}
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col {
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer-right-col {
+    flex-basis: 35%;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.links-title h4 {
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+.links-title small {
+    font-size: 13px;
+    color: #777;
+}
+.footer-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-logo img {
+    width: 100px;
+}
+.footer-logo button {
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.copyright-text,.footer-logo {
+    flex-basis: 40%;
+}
+
+/* Social Icons */ 
+
+.social-icons {
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.social-icons img {
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
